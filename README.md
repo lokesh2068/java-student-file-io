@@ -1,28 +1,28 @@
-Library Management System (Java)
+Java Student File I/O
 
-A console-based Library Management System built in Java using Object-Oriented Programming and HashMap to manage books and borrowing records.
+A simple Java console application that stores and reads student records using file handling.
+
+This project allows users to enter student information, save it to a file, and retrieve it later in a structured format.
 
 ✨ Features
 
-Add new books
+Add multiple students
 
-View all books
+Save student data to a text file
 
-Search books by ID
+Read and display saved student records
 
-Borrow and return books
-
-Remove books
-
-Menu-driven user interface
+Uses Java File I/O
 
 🛠 Technologies Used
 
 Java
 
-OOP (Classes, Objects, Encapsulation)
+FileWriter
 
-HashMap
+FileReader
+
+BufferedReader
 
 Scanner
 
@@ -30,13 +30,16 @@ Scanner
 
 Compile the program
 
-javac LibraryManagementSystem.java
+javac StudentIO.java
 
 
 Run the program
 
-java LibraryManagementSystem
+java StudentIO
+
+
+Follow the prompts to enter and view student data.
 
 📌 About
 
-This project models a real-world library where books can be added, borrowed, returned, and managed efficiently using Java collections and object-oriented design.
+This project demonstrates how Java programs can use files to store and retrieve data, which is an important foundation for building real-world applications like student systems and databases.
