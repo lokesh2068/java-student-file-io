@@ -1,7 +1,15 @@
+<<<<<<< HEAD
 # Java Practice Projects 🚀
 
 This repository contains my Java practice programs.  
 I created these files while learning Java step by step.
+=======
+Java Student File I/O
+
+A simple Java console application that stores and reads student records using file handling.
+
+This project allows users to enter student information, save it to a file, and retrieve it later in a structured format.
+>>>>>>> 841c65bec7334e1cfff6d536dc68b310a4d10b8e
 
 ## What I practiced / learned
 - Java basics: variables, input/output, if/else, switch
@@ -13,6 +21,7 @@ I created these files while learning Java step by step.
 - Inheritance and polymorphism
 - Small real-life examples (BankAccount, Student, Product)
 
+<<<<<<< HEAD
 ---
 
 ## Files in this repo (simple description)
@@ -39,6 +48,15 @@ I created these files while learning Java step by step.
 ### Arrays
 - **Arrays.java** – Single-dimensional array practice.
 - **TwoDArray.java** – 2D array practice (rows and columns, nested loops).
+=======
+Add multiple students
+
+Save student data to a text file
+
+Read and display saved student records
+
+Uses Java File I/O
+>>>>>>> 841c65bec7334e1cfff6d536dc68b310a4d10b8e
 
 ### Small Programs / Logic
 - **Calculator.java** – Simple calculator using conditions and user input.
@@ -49,18 +67,46 @@ I created these files while learning Java step by step.
 
 ---
 
+<<<<<<< HEAD
 ## Note about `.class` files
 If you see `Main.class`, it is a compiled file created by Java automatically.  
 Normally, GitHub repos should include `.java` source files, not `.class` files.
 
 ---
+=======
+FileWriter
+
+FileReader
+
+BufferedReader
+>>>>>>> 841c65bec7334e1cfff6d536dc68b310a4d10b8e
 
 ## How to run (example)
 1. Open the project in VS Code
 2. Make sure Java is installed
 3. Run any file that has a `main()` method
 
+<<<<<<< HEAD
 Example:
 ```bash
 javac FileName.java
 java FileName
+=======
+▶ How to Run
+
+Compile the program
+
+javac StudentIO.java
+
+
+Run the program
+
+java StudentIO
+
+
+Follow the prompts to enter and view student data.
+
+📌 About
+
+This project demonstrates how Java programs can use files to store and retrieve data, which is an important foundation for building real-world applications like student systems and databases.
+>>>>>>> 841c65bec7334e1cfff6d536dc68b310a4d10b8e
